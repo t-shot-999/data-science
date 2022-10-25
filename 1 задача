@@ -1,0 +1,9 @@
+echo "# 1 задача" >> README.md
+#1 задача
+a=input("Введите слово из латинских букв: ")
+if (len(a)%2)==1:
+	half=len(a)//2
+	print(a[half])
+else:
+	half=len(a)//2
+	print("{}{}".format(a[half-1],a[half]))
